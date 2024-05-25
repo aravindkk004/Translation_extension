@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Translation Extension</h1>
+        <textarea id="text" placeholder="Enter text to translate"></textarea>
+        <select id="language"></select>
+        <button id="translate">Translate</button>
+        <div id="result">
+            <textarea id="translatedText" readonly></textarea>
+            <div class="loader"></div>
+        </div>
+        <div id="error"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
